@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
+img{
+    width: 300px;
+    text-align: center;
+}
+
+button{
+    background: #4682B4;
+    color:  background: #4682B4;
+}
