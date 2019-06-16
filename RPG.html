@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -12,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" herf="youtube/style.css">
+    <link rel="stylesheet" herf="RPG/style.css">
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
@@ -35,14 +34,14 @@
             <li class="nav-item">
               <a class="nav-link" href="Quit.html">Quit</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">排球教學<span class="sr-only">(current)</span></a>
+            <li class="nav-item" >
+              <a class="nav-link" href="youtube.html">排球教學</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="youtube_ng.html">小知識</a>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">小知識<span class="sr-only">(current)</span></a>
             </li>
-              <li class="nav-item">
-              <a class="nav-link" href="RPG.html">RPG</a>
+              <li class="nav-item active">
+              <a class="nav-link" href="#">RPG</a>
             </li>
               <li class="nav-item">
               <a class="nav-link" href="aboutme.html">About me</a>
@@ -59,28 +58,14 @@
     <main role="main">
 
       <div class="container marketing" style="text-align:center;">
-        <p style="padding-top: 50px;">撥放清單</p>
-        <select id="videoid">
-              <optgroup label="基本練習">
-              <option value ="0">發球篇-低手發球、跳躍漂浮球</option>
-              <option value ="1">接球篇</option>
-              <option value ="2">舉球篇-基礎動作、平常如何練習</option>
-              <option value ="3">攔網、扣球篇</option>
-              <optgroup label="戰術篇">
-              <option value ="4">空間差</option>
-              <option value ="5">時間差</option>
-              <option value ="6">立體</option>
-        </select>
-        <input id="playButton" type="button" value="Play"  style = " background: #4682B4; color:#FFF;">
         <hr class="featurette-divider">
-        
-        <h2></h2><!--預計擺放撥放歌曲名稱-->
-        <div id="player"></div><!--預計擺放影片撥放器-->
-        <br>
+        <h1>我要去右下角</h1>
+        <div>
+            <canvas id="myCanvas" width="600" height="600"></canvas>
+            <p id="talkBox"></p>
+        </div>
         <hr class="featurette-divider">
-      </div>
-        
-        
+        </div>
 
       <!-- FOOTER -->
       <footer class="container">
@@ -96,10 +81,8 @@
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="assets/js/vendor/popper.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->   
-    <script src="assets/js/vendor/holder.min.js"></script> 
-    <script src="http://www.youtube.com/iframe_api"></script>
-    <script src="youtube/main.js"></script>
-    <script src="youtube/playList.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+    <script src="RPG/main.js"></script>
   </body>
 </html>

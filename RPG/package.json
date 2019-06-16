@@ -1,0 +1,6 @@
+//專案設定檔
+"eslintConfig":{
+    "globals":{
+        "window":true
+    }
+}
